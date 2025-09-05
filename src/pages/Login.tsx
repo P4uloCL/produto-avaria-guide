@@ -28,7 +28,11 @@ export default function Login() {
         {/* Logo Area */}
         <div className="text-center mb-8">
           <div className="inline-flex items-center justify-center w-20 h-20 bg-primary rounded-full mb-4">
-            <Building2 className="h-10 w-10 text-primary-foreground" />
+            <img 
+              src="/logo.png" 
+              alt="Mateus Mais Logo" 
+              className="w-20 h-20 rounded-full object-cover"
+            />
           </div>
           <h1 className="text-4xl font-bold text-primary mb-2">Mateus Mais</h1>
           <p className="text-foreground/80">Sistema de Gestão de Produtos Avariados</p>
@@ -99,7 +103,7 @@ export default function Login() {
         </Card>
 
         <div className="text-center mt-6 text-sm text-foreground/60">
-          © 2024 Mateus Mais. Todos os direitos reservados.
+          © 2025 Mateus Mais. Todos os direitos reservados.
         </div>
       </div>
     </div>
