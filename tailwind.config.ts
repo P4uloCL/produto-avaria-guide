@@ -52,6 +52,19 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Mateus Mais Brand Colors
+				'mateus-blue': 'hsl(var(--mateus-blue))',
+				'mateus-red': 'hsl(var(--mateus-red))',
+				'mateus-blue-light': 'hsl(var(--mateus-blue-light))',
+				'mateus-red-light': 'hsl(var(--mateus-red-light))',
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
+				},
+				warning: {
+					DEFAULT: 'hsl(var(--warning))',
+					foreground: 'hsl(var(--warning-foreground))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
