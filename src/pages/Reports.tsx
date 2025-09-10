@@ -48,10 +48,10 @@ export default function Reports() {
     {
       id: '1',
       date: '2024-01-15',
-      product: 'Refrigerante Coca-Cola 2L',
-      originalPrice: 8.99,
+      product: 'Televisão Samsung 50"',
+      originalPrice: 1999.99,
       discount: '10%',
-      finalPrice: 8.09,
+      finalPrice: 1799.99,
       seller: 'João Silva',
       approver: 'Maria Santos',
       damageId: 'AV001'
@@ -59,10 +59,10 @@ export default function Reports() {
     {
       id: '2',
       date: '2024-01-14',
-      product: 'Biscoito Trakinas 126g',
-      originalPrice: 4.50,
+      product: 'Microondas LG 30L',
+      originalPrice: 899.99,
       discount: '25%',
-      finalPrice: 3.38,
+      finalPrice: 674.99,
       seller: 'Ana Costa',
       approver: 'Carlos Lima',
       damageId: 'AV002'
@@ -70,10 +70,10 @@ export default function Reports() {
     {
       id: '3',
       date: '2024-01-13',
-      product: 'Shampoo Seda 325ml',
-      originalPrice: 12.99,
+      product: 'Geladeira Electrolux 400L',
+      originalPrice: 3299.99,
       discount: '50%',
-      finalPrice: 6.50,
+      finalPrice: 1649.99,
       seller: 'Pedro Oliveira',
       approver: 'Maria Santos',
       damageId: 'AV003'

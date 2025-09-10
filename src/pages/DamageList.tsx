@@ -25,6 +25,11 @@ interface DamageItem {
   sku: string;
   product: string;
   description: string;
+  originalPrice: number;
+  finalPrice: number;
+  seller: string;
+  approver: string;
+  damageId: string;
   status: 'pending' | 'approved' | 'sold';
   date: string;
   responsible: string;
@@ -41,34 +46,49 @@ export default function DamageList() {
   // Dados simulados
   const damageItems: DamageItem[] = [
     {
-      id: '001',
-      sku: '7891234567890',
-      product: 'Refrigerante Coca-Cola 2L',
-      description: 'Lata amassada na lateral',
+      id: '1',
+      sku: 'SAM50TV001',
+      product: 'Televisão Samsung 50"',
+      description: 'TV com arranhão na lateral, funcionando perfeitamente.',
+      originalPrice: 1999.99,
+      discount: '10%',
+      finalPrice: 1799.99,
+      seller: 'João Silva',
+      approver: 'Maria Santos',
+      damageId: 'AV001',
       status: 'pending',
       date: '2024-01-15',
-      responsible: 'João Silva',
-      discount: '10%'
+      responsible: 'João Silva'
     },
     {
-      id: '002',
-      sku: '7891234567891',
-      product: 'Biscoito Trakinas 126g',
-      description: 'Embalagem rasgada',
+      id: '2',
+      sku: 'LG30MW002',
+      product: 'Microondas LG 30L',
+      description: 'Microondas com pequeno amassado na porta.',
+      originalPrice: 899.99,
+      discount: '25%',
+      finalPrice: 674.99,
+      seller: 'Ana Costa',
+      approver: 'Carlos Lima',
+      damageId: 'AV002',
       status: 'approved',
       date: '2024-01-14',
-      responsible: 'Maria Santos',
-      discount: '25%'
+      responsible: 'Ana Costa'
     },
     {
-      id: '003',
-      sku: '7891234567892',
-      product: 'Shampoo Seda 325ml',
-      description: 'Tampa quebrada',
+      id: '3',
+      sku: 'ELEC400FR003',
+      product: 'Geladeira Electrolux 400L',
+      description: 'Geladeira com risco na pintura traseira.',
+      originalPrice: 3299.99,
+      discount: '50%',
+      finalPrice: 1649.99,
+      seller: 'Pedro Oliveira',
+      approver: 'Maria Santos',
+      damageId: 'AV003',
       status: 'sold',
       date: '2024-01-13',
-      responsible: 'Carlos Lima',
-      discount: '50%'
+      responsible: 'Pedro Oliveira'
     }
   ];
 
